@@ -1,0 +1,321 @@
+html {
+    font-size: 15px;
+}
+body {
+    margin: 0;
+    font-family: "Bebas", sans-serif;
+    font-size: 1rem;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.top_line img{
+    margin: 0;
+    display: block;
+
+}
+/* Header */
+
+.header {
+
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    width: 88px;
+    height: 41px;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    margin-left: 230px;
+
+}
+.nav_link {
+    margin-left: 50px;
+    list-style: none;
+    background-color: #fff;
+    transition: background .2s linear;
+    padding: 40px 0 0 0;
+    margin-top: 0;
+    position: relative;
+}
+
+.active_link {
+    position: absolute;
+    top: 0;
+    right: 40%;
+    
+}
+
+.nav_link:first-child {
+    margin-left: 0;
+}
+
+.nav_link:hover {
+
+}
+
+.nav_link .active_link:hover {
+    display: block;
+}
+
+
+
+.nav_link a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.nav_link span {
+    color: #474747;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: "Bebas", sans-serif;
+}
+
+.nav_link small {
+    color: #a5a5a5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.9;
+    white-space: nowrap;
+    font-family: "Bebas", sans-serif;
+}
+
+/* Intro */
+
+.intro {
+    margin: 50px auto 0;
+}
+
+.intro_slider {
+    position: relative;
+}
+
+.slider_image {
+    width: 100%;
+    max-width: 940px;
+    height: 422px;
+    display: block;
+}
+
+.slider {
+    
+}
+
+.slider_featured {
+    background-color: #404040;
+    padding: 16px 16px 14px 10px;
+    width: 230px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.slider_subtitle {
+    color: #858585;
+    font-family: "Bebas", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.slider_title {
+    color: #ffffff;
+    font-family: "Bebas", sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.slider_indicator img{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.slider_element {
+    background-color: #f8f8f8;
+    padding: 17px 20px 50px 15px;
+}
+
+.sld_title {
+    font-family: "Bebas", sans-serif;
+    text-transform: uppercase;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sld_text {
+    font-family: "HelveticaNeue", sans-serif;
+    color: #474747;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.feature {
+    margin-top: 60px;
+    margin-bottom: 47px;
+}
+
+.feature_inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.feature_col {
+    width: 33%;
+    margin-left: 30px;
+}
+
+.feature_col:first-child {
+    margin-left: 0;
+}
+
+.feature_gen {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.feature_icon {
+    margin-right: 22px;
+}
+
+.feature_title {
+    font-family: "Bebas", sans-serif;
+    text-transform: uppercase;
+    color: #464646;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.feature_text {
+    color: #a0a0a0;
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+/*Button*/
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.feature_button img {
+    margin-right: 7px;
+    transition: transform .2s linear;
+}
+
+.feature_button img:hover {
+    transform: scaleX(1.2);
+}
+
+.feature_button:hover {
+    text-decoration: underline;
+}
+
+
+/* Projects */
+
+.project {
+
+}
+
+.project_inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project_inner:after {
+    content: "";
+    width: 100%;
+    max-width: 940px;
+    height: 7px;
+    background-image: url("../images/line.png") ;
+    display: block;
+    margin: 100px auto 65px;
+}
+
+.projects_list {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.project_fortitle {
+    background-image: url("../images/line.png");
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.project_title {
+    background: #fff;
+    padding: 2px;
+    width: 185px;
+    margin: 0 auto;
+
+}
+.project_title h3{
+    text-transform: uppercase;
+    font-family: "Bebas", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.project_img {
+    width: 220px;
+}
+
+.feature_col--four {
+    width: 22%;
+    margin-left: 15px;
+    overflow: hidden ;
+}
+
+.feature_title--mini {
+    font-size: 14px;
+}
+

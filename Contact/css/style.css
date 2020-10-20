@@ -1,0 +1,284 @@
+html {
+    font-size: 15px;
+}
+body {
+    margin: 0;
+    font-family: "Bebas", sans-serif;
+    font-size: 1rem;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 980px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.top_line img{
+    margin: 0;
+    display: block;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    width: 88px;
+    height: 41px;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    margin-left: 230px;
+
+}
+.nav_link {
+    margin-left: 40px;
+    list-style: none;
+    background-color: #fff;
+    transition: background .2s linear;
+    padding: 40px 0 0 0;
+    margin-top: 0;
+    position: relative;
+}
+
+.active_link {
+    position: absolute;
+    top: 0;
+    right: 40%;
+    opacity: 0;
+}
+
+.nav_link:first-child {
+    margin-left: 0;
+}
+
+.nav_link:hover {
+    opacity: 1;
+
+    
+}
+
+.nav_link .active_link:hover {
+    display: block;
+    opacity: 1;
+}
+
+
+
+.nav_link a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.nav_link span {
+    color: #474747;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: "Bebas", sans-serif;
+}
+
+.nav_link small {
+    color: #a5a5a5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.9;
+    white-space: nowrap;
+    font-family: "Bebas", sans-serif;
+}
+
+
+/* Wrapper */
+
+.wrapper {
+    width: 100%;
+    max-width: 940px;
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 0 auto;
+}
+/* About */
+
+.about {
+    margin-bottom: 14px;
+}
+
+.about_right {
+    width: 100%;
+    max-width: 220px;
+}
+
+.about_border {
+    max-width: 660px;
+}
+
+.about_left {
+    width: 100%;
+    max-width: 660px;
+    margin-right: 60px;
+}
+
+.intro_form {
+    max-width: 660px;
+}
+.about_inner {
+    max-width: 530px;
+    display: block;
+}
+
+.about_inner:after {
+    content: "";
+    width: 100%;
+    height: 7px;
+    background-image: url("../images/line.png") ;
+    display: block;
+    margin: 12px 0;
+
+}
+
+.about_title {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #474747;
+
+}
+
+.about_text {
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #464646;
+    
+}
+
+.about_text-gray {
+    font-style: italic;
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 12px;
+    color: #b8b8b8;
+    font-weight: 300;
+}
+
+.about_right h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #464646;
+    font-family: "Bebas", sans-serif;
+    padding-top: 20px;
+}
+
+.about_right h4::after {
+    content: "";
+    width: 100%;
+    height: 7px;
+    background-image: url("../images/line.png") ;
+    display: block;
+    margin: 10px 0 15px;
+}
+
+.about_list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about_link {
+    text-decoration: none;
+    color: #464646;
+}
+
+.about_link:hover {
+    text-decoration: underline;
+}
+
+.about_del {
+    margin-bottom: 25px;
+}
+
+.about_del .about_text  {
+    margin-bottom: 10px;
+}
+
+/* Form */
+.form {
+    margin-top: 40px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "HelveticaNeue", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #c6c6c6;
+    opacity: .6;
+    font-weight: 700;
+    padding: 10px;
+    width: 100%;
+    max-width: 220px;
+    border: 1px solid #eeeeee;
+    background-color: #fafafa;
+}
+
+.form_textarea {
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "HelveticaNeue", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #c6c6c6;
+    font-weight: 700;
+    padding: 10px;
+    width: 100%;
+    max-width: 495px;
+    border: 1px solid #eeeeee;
+    background-color: #fafafa;
+    height: 205px;
+    resize: none;
+    opacity: .6;
+}
+
+
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #5d5d5d;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.element {
+    padding-bottom: 230px;
+}
+
